@@ -12,3 +12,17 @@ Coding in the age of AI
 * [Copilot-cheatsheet](https://docs.github.com/en/copilot/reference/cheat-sheet?tool=vscode)
 * [Instruction Files](https://code.visualstudio.com/docs/copilot/customization/custom-instructions)
 * [Chat Cookbook](https://docs.github.com/en/copilot/tutorials/copilot-chat-cookbook)
+
+
+## Examples
+
+```bash
+# slash command for new poject
+/new react app with typescript
+/new python django web application
+/new node.js express server
+
+# participants
+@vscode how can I change key bindings
+@terminal find the largest file in the src directory
+```
