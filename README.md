@@ -1,5 +1,15 @@
 # coding_AI
-Coding in the age of AI
+Coding in the age of AI. Github Copilot is available:
+
+    - In your IDE
+    - In GitHub Mobile, as a chat interface
+    - In Windows Terminal Canary, through the Terminal Chat interface
+    - On the command line, through the GitHub CLI
+    - On the GitHub website
+
+* **Context** is everything: Add files to chat `#` + Add chat participants `@` (filter things out)
+
+* **Agents** are specialized AI tools that extend the core assistant's capabilities, acting like "apps for AI" to automate specific tasks,
 
 ## Papers
 
@@ -26,3 +36,9 @@ Coding in the age of AI
 @vscode how can I change key bindings
 @terminal find the largest file in the src directory
 ```
+
+# AI enabled IDEs
+
+* [vscode](https://code.visualstudio.com/)
+* [cloude-code](https://claude.com/product/claude-code)
+* [cursor](https://cursor.com/) VSCode fork
