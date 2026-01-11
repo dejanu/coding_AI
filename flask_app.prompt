@@ -1,0 +1,25 @@
+Create a minimal but production-structured Flask application.
+
+Requirements:
+- Python 3.10+
+- Use Flask
+- App structure with:
+  - app/__init__.py
+  - app/routes.py
+  - app/config.py
+  - run.py
+- One health check endpoint: GET /health returning JSON
+- Basic error handling
+- Logging configured using Python logging module
+- Use environment variables for configuration
+- Include a requirements.txt
+
+Constraints:
+- Keep it simple and readable
+- No database
+- No authentication
+- No frontend templates
+
+Output:
+- Show the file structure
+- Provide the full contents of each file
