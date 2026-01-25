@@ -36,6 +36,7 @@ Is available
 * [Copilot-cheatsheet](https://docs.github.com/en/copilot/reference/cheat-sheet?tool=vscode)
 * [Instruction Files](https://code.visualstudio.com/docs/copilot/customization/custom-instructions)
 * [Chat Cookbook](https://docs.github.com/en/copilot/tutorials/copilot-chat-cookbook)
+* [MCP](https://modelcontextprotocol.io/docs/getting-started/intro)
 
 
 ## Examples
