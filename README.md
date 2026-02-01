@@ -54,8 +54,12 @@ Is available
 
 ---
 
-# AI enabled IDEs
+# AI-enabled IDEs
 
 * [vscode](https://code.visualstudio.com/)
 * [cloude-code](https://claude.com/product/claude-code)
 * [cursor](https://cursor.com/) VSCode fork
+
+# Tools
+
+* mathematical reasoning engine [Harmonic](https://harmonic.fun/)
