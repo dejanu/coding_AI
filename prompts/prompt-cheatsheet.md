@@ -6,6 +6,9 @@
 |-------------|------------------------------------------------------|-----------------------------------------------|----------------------------------------------------------------------------------------|
 | Frontend    | `Generate a React component for a login form with email validation and Material UI styling.` | `Create a login form` | Ensures production-ready, styled, and framework-aligned code. |
 | Layout      | `Use Flexbox or CSS Grid to align and distribute elements in a responsive layout.` | `Put things next to each other` | Gives precise control over alignment and responsiveness. |
+| Responsive Design | `Apply responsive design principles (media queries, mobile-first, adaptive layouts) to ensure UI looks good on all devices.` | `Make it work on mobile and desktop` | Guarantees optimal appearance and usability across device types. |
+| Padding vs. Margin | `Use padding for space inside a component and margin for space outside.` | `Add spacing` | Clarifies box model: padding is inside, margin is outside. |
+| Hydration | `Implement hydration to make a static server-rendered page interactive with client-side JavaScript.` | `Make the page interactive` | Ensures the transition from static HTML to dynamic, interactive UI. |
 | Style       | `Apply Tailwind utility classes for styling components inline.` | `Use specific CSS files` | Enables rapid, consistent, and maintainable inline styling. |
 | Feedback    | `Show skeleton screens for loading states instead of spinners.` | `Show loading spinners` | Provides a modern, premium user experience. |
 | Backend     | `Write a Flask route that handles file uploads, saves to S3, and returns a presigned URL.` | `Write a file upload endpoint` | Incorporates real-world backend patterns and cloud integration. |
