@@ -37,7 +37,7 @@ Is available
 * [Instruction Files](https://code.visualstudio.com/docs/copilot/customization/custom-instructions)
 * [Chat Cookbook](https://docs.github.com/en/copilot/tutorials/copilot-chat-cookbook)
 * [MCP](https://modelcontextprotocol.io/docs/getting-started/intro)
-
+* [Prompt-cheatsheet](https://github.com/dejanu/coding_AI/blob/main/prompts/prompt-cheatsheet.md)
 
 ## Examples
 
@@ -54,12 +54,12 @@ Is available
 
 ---
 
-# AI-enabled IDEs
+# AI-enabled IDEs && Tools
 
 * [vscode](https://code.visualstudio.com/)
 * [cloude-code](https://claude.com/product/claude-code)
 * [cursor](https://cursor.com/) VSCode fork
-
-# Tools
-
 * mathematical reasoning engine [Harmonic](https://harmonic.fun/)
+
+
+
