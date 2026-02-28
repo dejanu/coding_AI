@@ -1,5 +1,8 @@
 # coding_AI
-Coding in the age of AI. 
+
+📍 Coding in the age of AI: resources repo
+
+📍 AI-enabled repo [taskapp](https://github.com/dejanu/taskapp)
 
 ## Papers
 * [On the Opportunities and Risks of Foundation Models](https://arxiv.org/pdf/2108.07258)
@@ -8,9 +11,8 @@ Coding in the age of AI.
 * [Evaluating Large Language Models Trained on Code](https://arxiv.org/abs/2107.03374): Codex, a GPT language model fine-tuned on publicly available code from GitHub, and study its Python code-writing capabilities.
 * [Sea Change in Software Development: Economic and Productivity Analysis of the AI-Powered Developer Lifecycle](https://arxiv.org/abs/2306.15033)
 * [PREDICTING EXPERT EVALUATIONS IN SOFTWARE CODE
-REVIEWS](https://arxiv.org/pdf/2409.15152) : This paper presents
-an algorithmic model that automates aspects of code review typically avoided due to their complexity
-or subjectivity, such as assessing coding time, implementation time, and code complexity
+REVIEWS](https://arxiv.org/pdf/2409.15152): An algorithmic model that automates aspects of code review typically avoided due to their complexity
+or subjectivity, such as assessing coding time, implementation time, and code complexity.
 
 ---
 
