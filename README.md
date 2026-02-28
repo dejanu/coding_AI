@@ -61,7 +61,8 @@ Is available
 * [vscode](https://code.visualstudio.com/)
 * [cloude-code](https://claude.com/product/claude-code)
 * [cursor](https://cursor.com/) VSCode fork
-* mathematical reasoning engine [Harmonic](https://harmonic.fun/)
+* Mathematical reasoning engine [Harmonic](https://harmonic.fun/)
+* [Agent Skills}(https://agentskills.io/home) (open standard)
 
 
 
