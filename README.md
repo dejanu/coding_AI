@@ -39,6 +39,11 @@ Is available
 
 * **Skills** playbooks/procedures for agents with step-by-step instructions on how to use tools to accomplish specific tasks, such as code review, debugging
 
+## Agents in the repo
+
+* [Reviewer](.github/agents/reviewer.agent.md): Review code for quality and adherence to best practices.
+
+
 ## Resources
 
 * [Copilot-vscode-features](https://code.visualstudio.com/docs/copilot/reference/copilot-vscode-features)
