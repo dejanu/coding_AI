@@ -28,9 +28,16 @@ Is available
     - On the command line, through the GitHub CLI
     - On the GitHub website
 
-* **Context** is everything: Add files to chat `#` + Add chat participants `@` (filter things out)
+* **Context** is everything: 
+    
+    Add files to chat aka `Mentions` via `#` (indexing and RAG search).
+    Add `chat participants` `@` (routes the question to the right agent or tool i.e. `@workspace how auth is implemented?` or `@terminal find the largest file in the src directory`)
 
-* **Agents** are specialized AI tools that extend the core assistant's capabilities, acting like "apps for AI" to automate specific tasks,
+* **Agents** autonomous session that follows the agentic loop of `undestand->act->validate`
+
+* **Tools** are the specific functions or capabilities that agents can utilize to perform their tasks, such as asking questions, accessing APIs, reading files, searching the web, or executing commands.
+
+* **Skills** playbooks/procedures for agents with step-by-step instructions on how to use tools to accomplish specific tasks, such as code review, debugging
 
 ## Resources
 
