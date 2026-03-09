@@ -1,0 +1,25 @@
+Using the repository analysis, generate an ARCHITECTURE.md for this repository.
+
+Purpose:
+This document should help both engineers and AI agents quickly understand how the system is structured.
+
+Include these sections when they are supported by the repository contents:
+- System overview
+- Repository structure
+- Core modules/services
+- Key data flows
+- Technology stack
+- Architectural patterns
+- External dependencies and integrations
+- Risk-sensitive areas
+
+Guidelines:
+- Be concise and factual
+- Prefer bullet points over long paragraphs
+- Base everything on the repository contents
+- Do not speculate about missing components
+- Omit sections that are not supported by evidence
+- Keep the file under ~200 lines
+- Do not include implementation instructions or agent behavior rules
+
+Output only the final ARCHITECTURE.md content.

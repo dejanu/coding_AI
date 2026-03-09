@@ -1,0 +1,59 @@
+Analyze this repository and give me a structured summary.
+
+Focus only on information that can be supported by actual repository contents such as:
+- source files
+- package manifests
+- lockfiles
+- build configs
+- CI workflows
+- Dockerfiles
+- Makefiles
+- scripts
+- README/docs only when they are consistent with the code/configs
+
+Extract:
+
+1. Primary language(s) and any explicitly pinned runtime/tool versions
+2. Framework(s) and key libraries, with a short purpose for each
+3. Root-level folder structure - one line per top-level folder describing what lives there
+4. Entry points:
+   - main application entrypoints
+   - CLI entrypoints
+   - server startup files
+   - worker/job entrypoints
+5. How to install, build, test, lint, typecheck, and run locally
+   - provide exact commands only if explicitly defined in the repo
+   - if multiple valid command paths exist, list the canonical ones
+6. Architectural patterns actually evidenced by the repo
+   - examples: monorepo, package-based modularity, layered architecture, MVC, event-driven, microservices
+   - do not label patterns unless there is clear evidence
+7. Non-obvious conventions detectable from the codebase
+   - naming patterns
+   - file organization rules
+   - testing placement
+   - dependency boundaries
+   - error handling or config conventions
+
+Also identify:
+- potential risks or critical areas
+- auth/security-sensitive code
+- infra/deployment/configuration
+- migrations/data model ownership
+- generated code or vendored code
+- parts that are unclear or not confidently inferable
+
+Rules:
+- Only infer information from actual files
+- Do NOT invent commands, versions, entrypoints, or patterns
+- If something is not explicit, say "not confidently detected"
+- Prefer brevity and evidence over completeness
+
+Output in this structure:
+
+1. Repository summary
+2. Directory/module map
+3. Detected commands
+4. Architecture patterns
+5. Potential risks or critical areas
+6. Evidence / source files used
+7. Unknowns / not confidently detected
