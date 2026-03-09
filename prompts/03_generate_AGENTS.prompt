@@ -1,0 +1,64 @@
+Using the repository analysis and ARCHITECTURE.md, generate an AGENTS.md
+for this repository.
+
+Purpose:
+This file should guide AI coding agents working in the repo. It should help
+them make safe, minimal, well-validated changes that follow the existing
+structure and conventions.
+
+Generate a concise AGENTS.md with these sections, only when supported by
+evidence from the repository:
+
+1. Project Overview
+
+2. Repository Map
+
+3. Architecture Principles
+   - Where logic belongs and how code is typically organized
+   - Layering rules: what calls what, what must not call what
+
+4. Coding Conventions
+   - Reflect only detectable local patterns
+   - Flag any pattern that is inconsistent across the codebase with:
+     "(inconsistent - verify before applying)"
+   - Do not apply generic best practices as if they were project rules
+
+5. Canonical Development Commands
+   - install
+   - dev / run
+   - build
+   - lint
+   - typecheck
+   - test (full suite)
+   - test (targeted - single file or related to changed files, if detectable)
+
+6. Validation Workflow
+   - What checks the agent must run before considering a change complete
+   - Ordered sequence: e.g. lint → typecheck → test → build
+
+7. Definition of Done
+   - When is a change complete and ready to hand back to the human
+   - Include: tests pass, no lint errors, no regressions, output summarized
+
+8. Safety Boundaries
+   Three explicit tiers:
+   - Autonomous: what the agent can do without asking
+   - Ask first: what requires human confirmation before proceeding
+   - Never: hard off-limits, derived from Risk-Sensitive Areas in ARCHITECTURE.md
+
+9. Recommended Agent Workflow
+   Default sequence for any task:
+   inspect → understand → plan → confirm if needed → implement → validate → summarize
+
+Requirements:
+- Base everything on the repository analysis and ARCHITECTURE.md
+- Do not invent commands, paths, rules, or conventions
+- If something is unclear, omit it rather than guessing
+- Keep instructions operational and broadly applicable
+- Prefer bullet points over paragraphs
+- Keep the file under ~200 lines
+- Avoid tool-specific references unless they are truly generic
+- Do not restate large parts of ARCHITECTURE.md - reference it, don't repeat it
+- Focus on instructions that help an agent implement and validate changes safely
+
+Output only the final AGENTS.md content, no preamble.
