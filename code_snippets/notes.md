@@ -1,8 +1,10 @@
 
-*  raw_call_OpenAI_api.py
+## Contents
+
+
+*  Example of API call to  OpenAI  models for text generation using Python SDK `raw_call_OpenAI_api.py`
 
 ```bash
-
 # export API KEY
 export OPENAI_API_KEY="your_api_key_here"
 
