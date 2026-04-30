@@ -5,6 +5,7 @@
 *  Example of API call to  OpenAI  models for text generation using Python SDK `raw_call_OpenAI_api.py` (uses the new `responses` API endpoint, an evolution of `completions` endpoint)
 
 ```bash
+## PREREQUISITES 
 # export API KEY
 export OPENAI_API_KEY="your_api_key_here"
 
@@ -16,7 +17,6 @@ pip install openai
 ```
 
 
-
 * OpenAI [responses API endpoint](https://developers.openai.com/api/reference/resources/responses)
-* OpenAI [completions API endpoint(https://developers.openai.com/api/reference/resources/chat)
+* OpenAI [completions API endpoint](https://developers.openai.com/api/reference/resources/chat)
 * [Migrate to the Responses API](https://developers.openai.com/api/docs/guides/migrate-to-responses)
