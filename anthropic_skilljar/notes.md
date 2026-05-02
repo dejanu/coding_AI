@@ -44,7 +44,7 @@ In a typical solo project you'd have 2 files loaded upfront (global + project ro
 * A **context window** represents the memory available within a session (it's a fixed token budget), and it fills up as your session progresses.
 
 
-* Agentic loop: the local agent (  a local app that orchestrates the interaction with the model) keeps looping (`build context → model thinks → execute tool → repeat`) until the model stops returning tool calls and returns plain text instead. That's the exit signal.
+* Agentic loop: the local agent/app (the MCP host that orchestrates the interaction with the model) keeps looping (`build context → model thinks → execute tool → repeat`) until the model stops returning tool calls and returns plain text instead. That's the exit signal.
 
 ![agentic loop](resources/00_agentic_loop.png)
 
