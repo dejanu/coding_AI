@@ -1,0 +1,40 @@
+# Bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+.env/
+
+# Packaging / builds
+build/
+dist/
+wheels/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# Secrets / local env (keep .env.example commit-able)
+.env
+.env.*
+!.env.example
+
+# Tests / coverage
+.coverage*
+htmlcov/
+.nox/
+.tox/
+
+# Logs / local DB
+*.log
+*.sqlite3
+
+# OS
+.DS_Store
