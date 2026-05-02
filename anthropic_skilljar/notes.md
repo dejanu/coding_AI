@@ -128,7 +128,7 @@ Use thinking (internal reasoning): keyword that increase the internal reasoning
 
 ### Introduction to Model Context Protocol
 
-* MCP server with one tool called `greet`: setup without MCP host vs setpup with MCP host (Claude Code, VS Code)
+* MCP server with one tool called `greet`: setup without using MCP host vs setup with MCP host (VS Code)
 
 ```mermaid
 sequenceDiagram
